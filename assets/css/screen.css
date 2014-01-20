@@ -74,7 +74,7 @@ html { font-family:'proxima-nova', Arial, sans-serif; font-size:12px;}
 */
 
 nav.main {
-	background:url('../img/me.png') #292422 no-repeat -35px bottom;
+	background:url('../img/me.png') #292422 no-repeat 70px 15px;
 	background-size:150px;
 	width:300px;
 	position:fixed;
@@ -85,7 +85,7 @@ nav.main {
 
 nav.main div.inner {
 	position:fixed;
-	bottom:0;
+	top:350px;
 	height:460px;	
 	width:240px;
 	padding-left:40px;
@@ -167,14 +167,11 @@ header.main {
 	position:fixed;
 	color:#fff;
 	width:300px;
-	bottom:0;
+	top: 180px;
 	height:120px;
 	left:0;
 	z-index:10;
-}
-
-header.main h1, header.main p {
-	margin-left:100px;
+	text-align: center;
 }
 
 header.main h1 a {
