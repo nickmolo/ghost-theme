@@ -223,6 +223,10 @@ section.content {
 	padding-right:10%;
 }
 
+main.content {
+	max-width: 1000px;
+}
+
 /*
 	Welcome
 */
@@ -233,6 +237,7 @@ section.content section.welcome {
 	padding-bottom:30px;
 	margin-bottom:40px;
 	font-family:adelle, georgia, serif;
+	max-width: 1000px;
 }
 
 section.content section.welcome a {
@@ -474,7 +479,7 @@ section.content footer.global {
 
 #disqus_thread { margin-top:25px; }
 
-#disqus_thread a { color:#292422 }
+#disqus_thread a { color:#28303A }
 
 /* 
 	Small
@@ -485,13 +490,13 @@ section.content footer.global {
 @media all and (max-width:900px), (max-height:500px) {
 	nav.main { position:relative; background:#F8F5F3; width:inherit;border-bottom:1px solid #ded1c9;}
 	nav.main div.inner { position:relative;height:inherit; padding:20px 40px; overflow:hidden; width:inherit;}
-	nav.main div.inner h2 { color:#292422;}
-	nav.main div.inner div.group.pages ul li a { color:#292422;}
-	nav.main div.inner div.group.pages ul li i { color:#292422;}
-	nav.main div.inner div.group ul.social li a b { color:#292422 !important; }
+	nav.main div.inner h2 { color:#28303A;}
+	nav.main div.inner div.group.pages ul li a { color:#28303A;}
+	nav.main div.inner div.group.pages ul li i { color:#28303A;}
+	nav.main div.inner div.group ul.social li a b { color:#28303A !important; }
 	nav.main div.inner div.group { float:left;clear:none; margin-top:0; margin-right:60px;}
 	nav.main div.inner div.group:last-child { margin-right:0;}
-	header.main {background-color:#292422; width:inherit; padding:20px 40px; height:inherit; position:relative;}
+	header.main {background-color:#28303A; width:inherit; padding:20px 40px; height:inherit; position:relative; top: initial; text-align: initial; }
 	header.main h1, header.main p { margin-left:0;}
 	header.main h1 { font-size:0.7em; float:left; margin-right:15px}
 	header.main p { margin-left:5px;}
