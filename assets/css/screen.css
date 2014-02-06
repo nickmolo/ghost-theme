@@ -489,7 +489,7 @@ section.content footer.global {
 
 @media all and (max-width:900px), (max-height:500px) {
 	nav.main { position:relative; background:#F8F5F3; width:inherit;border-bottom:1px solid #ded1c9;}
-	nav.main div.inner { position:relative;height:inherit; padding:20px 40px; overflow:hidden; width:inherit;}
+	nav.main div.inner { position:relative;height:inherit; padding:20px 40px; overflow:hidden; width:inherit; top: initial; }
 	nav.main div.inner h2 { color:#28303A;}
 	nav.main div.inner div.group.pages ul li a { color:#28303A;}
 	nav.main div.inner div.group.pages ul li i { color:#28303A;}
