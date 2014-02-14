@@ -234,7 +234,6 @@ section.content section.welcome {
 	font-size:1.8em;
 	line-height:2.0;
 	border-bottom:1px solid #efefef;
-	padding-bottom:30px;
 	margin-bottom:40px;
 	font-family:adelle, georgia, serif;
 	max-width: 1000px;
@@ -366,7 +365,9 @@ blockquote p {
 	Post list
 */
 section.content article.home.post {
-	margin-bottom:50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-bottom: 1px solid #efefef;
 }
 
 section.content article.home.post h2 {

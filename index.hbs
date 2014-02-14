@@ -13,9 +13,16 @@
     <article class="home {{post_class}}">
         <p class="meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="dddd Do MMMM YYYY"}}</time></p>
         <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
-        <section class="post-excerpt">
-            <p>{{excerpt characters="800"}}&hellip;</p>
-        </section>
+		{{#if @first}}
+			<section class="post-content">
+				<p>{{content}}&hellip;</p>
+			</section>
+		{{else}}
+			<section class="post-excerpt">
+				<p>{{excerpt characters="800"}}&hellip;</p>
+			</section>
+		{{/if}}
+		
     </article>
 
     {{/foreach}}
