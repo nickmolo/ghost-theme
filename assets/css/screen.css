@@ -68,6 +68,10 @@ html { font-family:'proxima-nova', Arial, sans-serif; font-size:12px;}
   content: "j";
 }
 
+.icon-archives:before {
+	content: "a";
+}
+
 
 /*
 	Navigation
